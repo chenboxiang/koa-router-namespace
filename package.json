@@ -1,0 +1,24 @@
+{
+  "name": "koa-router-namespace",
+  "version": "1.0.0",
+  "description": "Add namespace support for koa-router.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "chenboxiang <gozap.chenboxiang@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "koa": "^0.5.5",
+    "koa-router": "^3.1.2",
+    "mocha": "^1.18.2",
+    "supertest": "^0.11.0"
+  },
+  "dependencies": {
+    "methods": "^0.1.0"
+  }
+}
