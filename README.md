@@ -20,7 +20,9 @@ var app = new koa();
 app.use(router(app));  // 必须在调用namespace前
 namespace(app);  // 给app增加上namespace方法
 ```
+
 经过上面的步骤后，app就有了namespace方法，下面是用法：
+
 ```javascript
 app.namespace('/users', function() {
 	// 匹配 GET /users
