@@ -1,4 +1,4 @@
-# koa-router-namespace
+# koa-router-namespace [![Build Status](https://travis-ci.org/chenboxiang/koa-router-namespace.svg)](https://travis-ci.org/chenboxiang/koa-router-namespace) [![NPM version](https://badge.fury.io/js/koa-router-namespace.png)](http://badge.fury.io/js/koa-router-namespace)
 
 这个模块是对[koa-router](https://github.com/alexmingoia/koa-router)的增强，增加了namespace功能。通常1个controller里面的route都会有相同的前缀，我比较喜欢将这个前缀抽取出来单独定义，所谓的namespace指的就是这个前缀，这样的话controller里的route就能共享这个namespace。具体用法请往下看。
 
